@@ -391,7 +391,7 @@ width: 100%;
 }
 
  .chooseContainer{
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
  }
 
 .hotelServiceContainer{
@@ -484,11 +484,19 @@ width: 100%;
 }
 input[type="submit"]{
     width: 90%;
+    color: #FFF;
 }
+input[type="text"]::placeholder{
+    color: rgba(19, 19, 24, 0.30);
+}
+/* input[type="submit"]::placeholder{
+    color: #FFF;
+} */
+ 
 
    footer{  
      margin-top: 2.5rem;
-     height:400px;
+     height:280px;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -520,6 +528,7 @@ input[type="submit"]{
 .logo-footer img{
     /* width: 5%; */
     height: 30px;
+    margin-right: 1%;
 }
 .footer-icons i{
     padding: 10px;
