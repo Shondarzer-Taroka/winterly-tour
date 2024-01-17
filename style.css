@@ -1,8 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
 }
 
 .container{
@@ -58,7 +61,11 @@
     flex-direction: column;
 
 }
+  p{
+    color: #5A5A5D;
 
+
+  }
 .banner-heading-cont{
     text-align: center;
     line-height: 1.9;
@@ -68,9 +75,9 @@
     color: #FFF;
 }
 
-p{
+/* .uniqe{
     color: #efececc9;
-}
+} */
 
 .input-container {
     border-radius: 8px;
@@ -397,8 +404,9 @@ width: 100%;
 }
 
 
-.service{
-    text-align: left;
+.service {
+    /* text-align: left; */
+    padding: 5%;
 }
 
 .service-1{
@@ -470,7 +478,7 @@ width: 100%;
     /* width: 90%; */
     /* margin: 0 auto; */
 }
-.inputs-conts input,h4,p{
+.inputs-conts input,h4{
     width: 90%;
     margin: 20px auto;
 }
@@ -729,7 +737,7 @@ input[type="submit"]{
 
 
     .hotelServiceContainer{
-        grid-template-columns: 1fr;
+        grid-template-columns:100%;
         grid-template-rows: repeat(3,1fr);
     }
 
@@ -785,5 +793,8 @@ input[type="submit"]{
     .input-container{
         width: 100%;
 
+    }
+    .banner-heading-cont{
+        line-height: normal;
     }
 }
